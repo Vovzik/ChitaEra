@@ -1,0 +1,32 @@
+.dnatests {
+  h1 {
+     margin-bottom: 53px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     a {
+        display: flex;
+        align-items: center;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 20px;
+        color: #259499;
+        transition: all 0.4s ease;
+        position: absolute;
+        left: 0px;
+        &:hover {
+            opacity: 0.5
+        }
+        svg {
+           margin-right: 7px;
+        }
+      
+     }
+  }
+}
+
+@import '../scss/blog/special';
+@import '../scss/blog/tovar';
+@import '../scss/blog/consultations';
+@import '../scss/blog/cards';

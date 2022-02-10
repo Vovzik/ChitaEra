@@ -1,0 +1,115 @@
+.consultations {
+   h2 {
+      padding-left: 60px;
+      margin-bottom: 11px;
+      line-height: 48px;
+   }
+
+   ul {
+      padding-left: 60px;
+      margin-bottom: 35px;
+      flex-grow: 1;
+   }
+
+   li {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #202228;
+      display: flex;
+      align-items: center;
+      img {
+         margin-right: 10px;
+      }
+      &:not(:last-child) {
+         margin-bottom: 16px;
+      }
+   }
+
+   &__items {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+   }
+   &__item {
+      background: #ffffff;
+      box-shadow: 0px 4px 44px rgba(155, 179, 179, 0.4);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 24.98px;
+   }
+
+   // .consultations__images
+
+   &__images {
+      text-align: center;
+      margin-bottom: 25px;
+      padding: 0px 20px;
+   }
+
+   // .consultations__inner-btn
+
+   &__inner-btn {
+      min-height: 120px;
+      display: flex;
+      align-items: center;
+      padding: 20px 20px 20px 60px;
+      background: #e2ebeb8a;
+      border-radius: 0px 0px 8px 8px;
+      strong {
+         font-weight: 900;
+         font-size: 26px;
+         line-height: 31px;
+         text-transform: uppercase;
+         color: #259499;
+         max-width: 148px;
+         span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #bdbdbd;
+            position: relative;
+            margin-top: 3px;
+            &:before {
+               content: '';
+               width: 100%;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%) rotate(-5.44deg);
+               border-top: 2px solid #CE897F;
+            }
+         }
+      }
+      button {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: linear-gradient(180deg, #62cfcd 0%, #41aeac 100%);
+         box-shadow: 0px 10px 20px rgba(80, 190, 188, 0.4), inset 0px -3px 0px rgba(0, 0, 0, 0.1);
+         border-radius: 70px;
+         font-weight: 900;
+         font-size: 16px;
+         line-height: 40px;
+         letter-spacing: 0.1em;
+         text-transform: uppercase;
+         color: #ffffff;
+         margin-right: 30px;
+         transition: all 0.4s ease;
+         width: 220px;
+         height: 60px;
+         &:hover {
+            opacity: 0.5;
+         }
+         img {
+            margin-right: 10px;
+         }
+      }
+   }
+}
+.dnatests.consultations h1 {
+   margin-bottom: 30px;
+}

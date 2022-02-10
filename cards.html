@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Карточка товара</title>
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/resetdop.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/styledop.css">
+   <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+   <div class="header">
+      <h1>header</h1>
+   </div>
+   <div class="wrapper">
+      <div class="main">
+         <section class="dnatests consultations  title">
+            <div class="container">
+               <h1>
+                  <a href="#"><svg width="15" height="8" viewBox="0 0 15 8" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 4H2M2 4L5 1M2 4L5 7" stroke="#259499" stroke-width="2" />
+                     </svg>
+                     вернуться назад</a>
+                  Питание, спорт, витамины
+               </h1>
+
+            </div>
+         </section>
+         <section class="cards title">
+            <div class="container">
+               <div class="cards__inner">
+                  <div class="cards__swiper">
+                     <!-- Основной контейнер слайдера -->
+                     <!-- Основной контейнер слайдера -->
+                     <div class="cards__mini-arrows">
+                        <div class="cardsmini__swiper-container">
+                           <!-- Дополнительная необходимая обертка -->
+                           <div class="swiper-wrapper">
+                              <!-- Слайды -->
+                              <div class="swiper-slide">
+                                 <img src="images/cards__vertical.png" alt="alt">
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="images/cards__vertical.png" alt="alt">
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="images/cards__vertical.png" alt="alt">
+                              </div>
+
+                           </div>
+                        </div>
+                        <!-- Если нам нужны кнопки навигации -->
+                        <div class="cards__swiper-button-prev">
+                           <img src="images/cards__prev.svg" alt="alt">
+                        </div>
+                        <div class="cards__swiper-button-next">
+                           <img src="images/cards__next.svg" alt="alt">
+                        </div>
+                     </div>
+                     <div class="cards__swiper-container">
+                        <!-- Дополнительная необходимая обертка -->
+                        <div class="swiper-wrapper">
+                           <!-- Слайды -->
+                           <div class="swiper-slide">
+                              <img src="images/cards__horizontol.jpg" alt="alt">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="images/cards__horizontol.jpg" alt="alt">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="images/cards__horizontol.jpg" alt="alt">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="cards__text">
+                     <strong>
+                        17 900 руб.
+                     </strong>
+                     <input type="checkbox" class="cards__checkbox-box" id="hello">
+                     <label for="hello" class="cards__checkbox-title">
+                        Печатная версия отчета (+2000р)
+                     </label>
+                     <div class="cards__value-inner">
+                        <button class="cards__minus js__cards-minus" type="button">
+                           <img src="images/cards__minus.svg" alt="alt">
+                        </button>
+                        <input type="text" name="field" class="cards__value js__cards-value" value="1" />
+                        <button class="cards__plus js__cards-plus" type="button">
+                           <img src="images/cards__plus.svg" alt="alt">
+                        </button>
+                     </div>
+
+
+                     <button type="submit">
+                        <img src="images/basket.svg" alt="alt">
+                        Добавить в корзину
+                     </button>
+                  </div>
+
+
+               </div>
+               <div class="cards__tab">
+                  <div class="cards__tabs-btn js__ordering-innerbtn">
+                     <div class="cards__tabs-items js__ordering-btn active">
+                        <span>
+                           Описание товара
+                        </span>
+                     </div>
+                     <div class="cards__tabs-items js__ordering-btn">
+                        <span>
+                           Что входит в комплект
+                        </span>
+                     </div>
+                  </div>
+                  <div class="cards__tabs-content js__ordering-body">
+                     <div class="cards__tabs-contentitems js__ordering-item active">
+                        <h4>
+                           Описание товара:
+                        </h4>
+                        <p>Wellness - это развернутый ДНК-тест про рацион питания, физические нагрузки, особенности
+                           появления чувства голода и насыщения, персональные рекомендации по приему подходящих форм
+                           витаминов и БАДов.</p>
+                        <h5>Приобретая Wellness, вы узнаете:</h5>
+                        <ul>
+                           <li>Оптимальный "вид топлива" для вашего организма - жиры или углеводы</li>
+                           <li>Меню с теми продуктами, которые подходят именно вам</li>
+                           <li>Метаболизм кофеина и алкоголя - ваша уникальная норма</li>
+                           <li>Индивидуальная реакция организма на глютен и лактозу</li>
+                           <li>Почему вы любите сладкое, не любите жирное и чувствительны к горькому вкусу</li>
+                           <li>Скорость выведения соли и склонность к отекам</li>
+                           <li>Склонность к формированию зависимостей</li>
+                           <li>Степень воздействия никотина на мозг</li>
+                           <li>Генетическая склонность к формированию зависимостей</li>
+                           <li>Стоит ли практиковать вегетарианство</li>
+                           <li>Склонность к перееданию и надо ли делать разгрузочные дни</li>
+                           <li>На какие витамины обратить пристальное внимание (контроль анализов, подходящая форма
+                              витаминов, работа с лечащим врачом)</li>
+                        </ul>
+                     </div>
+                     <div class="cards__tabs-contentitems js__ordering-item">
+                        2
+                     </div>
+                  </div>
+               </div>
+               <div class="tovar">
+                  <h1 class="tovar__title">С этим товаром покупают:</h1>
+                  <div class="tovar__items">
+                     <div class="tovar__item">
+                        <a href="#" class="tovar__images">
+                           <img src="images/tovar.jpg" alt="alt">
+                        </a>
+                        <span>MyExpert</span>
+                        <h3><a href="#">Питание, спорт, витамины</a></h3>
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et officia excepturi accusantium, porro officiis amet recusandae saepe iste facere magnam? Hic beatae impedit maxime ab sequi vero et odio rerum.
+                        </p>
+                        <div class="tovar__price">
+                           <strong>
+                              17 900 руб.
+                              <span>2 100 руб.</span>
+                           </strong>
+                           <button type="submit">
+                              <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M18.8409 6.15927C18.7133 6.00859 18.5259 5.92172 18.3284 5.92172H16.464L12.8026 0.934574C12.583 0.635253 12.1628 0.571444 11.8639 0.790609C11.5647 1.01023 11.5005 1.4307 11.7199 1.72957L14.7977 5.92175H5.02326L8.10106 1.72957C8.32068 1.43046 8.256 1.01023 7.9571 0.790609C7.6582 0.571198 7.23776 0.635675 7.01814 0.934574L3.35667 5.92175H1.67163C1.47416 5.92175 1.28677 6.00863 1.15915 6.15931C1.03154 6.30999 0.976693 6.50901 1.00914 6.70377L2.68825 16.7784C2.74221 17.1022 3.02251 17.3397 3.3507 17.3397H16.6493C16.9777 17.3397 17.2578 17.1024 17.3117 16.7784L18.9908 6.70377C19.0233 6.50922 18.9685 6.30995 18.8409 6.15927ZM16.0804 15.9964H3.91963L2.46441 7.26504H17.5357L16.0804 15.9964Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M9.99975 8.83228C9.62878 8.83228 9.32812 9.13293 9.32812 9.5039V13.9144C9.32812 14.2854 9.62878 14.586 9.99975 14.586C10.3707 14.586 10.6714 14.2856 10.6714 13.9144V9.5039C10.6714 9.13293 10.3707 8.83228 9.99975 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M13.4705 8.83228C13.0995 8.83228 12.7988 9.13293 12.7988 9.5039V13.9144C12.7988 14.2854 13.0995 14.586 13.4705 14.586C13.8415 14.586 14.1421 14.2856 14.1421 13.9144V9.5039C14.1421 9.13293 13.8414 8.83228 13.4705 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M6.53003 8.83228C6.15906 8.83228 5.8584 9.13293 5.8584 9.5039V13.9144C5.8584 14.2854 6.15906 14.586 6.53003 14.586C6.901 14.586 7.20165 14.2856 7.20165 13.9144V9.5039C7.20165 9.13293 6.901 8.83228 6.53003 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                              </svg>
+                              Купить
+                           </button>
+                        </div>
+
+
+                     </div>
+                     <div class="tovar__item">
+                        <a href="#" class="tovar__images">
+                           <img src="images/tovar.jpg" alt="alt">
+                        </a>
+                        <span>MyExpert</span>
+                        <h3><a href="#">Питание, спорт, витамины</a></h3>
+                        <p>
+                           Индивидуальный рацион питания и режим
+                           тренировок для здоровья, контроля веса
+                           и улучшения спортивных показателей
+                        </p>
+                        <div class="tovar__price">
+                           <strong>
+                              17 900 руб.
+                              <span>2 100 руб.</span>
+                           </strong>
+                           <button type="submit">
+                              <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M18.8409 6.15927C18.7133 6.00859 18.5259 5.92172 18.3284 5.92172H16.464L12.8026 0.934574C12.583 0.635253 12.1628 0.571444 11.8639 0.790609C11.5647 1.01023 11.5005 1.4307 11.7199 1.72957L14.7977 5.92175H5.02326L8.10106 1.72957C8.32068 1.43046 8.256 1.01023 7.9571 0.790609C7.6582 0.571198 7.23776 0.635675 7.01814 0.934574L3.35667 5.92175H1.67163C1.47416 5.92175 1.28677 6.00863 1.15915 6.15931C1.03154 6.30999 0.976693 6.50901 1.00914 6.70377L2.68825 16.7784C2.74221 17.1022 3.02251 17.3397 3.3507 17.3397H16.6493C16.9777 17.3397 17.2578 17.1024 17.3117 16.7784L18.9908 6.70377C19.0233 6.50922 18.9685 6.30995 18.8409 6.15927ZM16.0804 15.9964H3.91963L2.46441 7.26504H17.5357L16.0804 15.9964Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M9.99975 8.83228C9.62878 8.83228 9.32812 9.13293 9.32812 9.5039V13.9144C9.32812 14.2854 9.62878 14.586 9.99975 14.586C10.3707 14.586 10.6714 14.2856 10.6714 13.9144V9.5039C10.6714 9.13293 10.3707 8.83228 9.99975 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M13.4705 8.83228C13.0995 8.83228 12.7988 9.13293 12.7988 9.5039V13.9144C12.7988 14.2854 13.0995 14.586 13.4705 14.586C13.8415 14.586 14.1421 14.2856 14.1421 13.9144V9.5039C14.1421 9.13293 13.8414 8.83228 13.4705 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M6.53003 8.83228C6.15906 8.83228 5.8584 9.13293 5.8584 9.5039V13.9144C5.8584 14.2854 6.15906 14.586 6.53003 14.586C6.901 14.586 7.20165 14.2856 7.20165 13.9144V9.5039C7.20165 9.13293 6.901 8.83228 6.53003 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                              </svg>
+                              Купить
+                           </button>
+                        </div>
+
+
+                     </div>
+                     <div class="tovar__item">
+                        <a href="#" class="tovar__images">
+                           <img src="images/tovar.jpg" alt="alt">
+                        </a>
+                        <span>MyExpert</span>
+                        <h3><a href="#">Питание, спорт, витамины</a></h3>
+                        <p>
+                           Индивидуальный рацион питания и режим
+                           тренировок для здоровья, контроля веса
+                           и улучшения спортивных показателей
+                        </p>
+                        <div class="tovar__price">
+                           <strong>
+                              17 900 руб.
+                              <span>2 100 руб.</span>
+                           </strong>
+                           <button type="submit">
+                              <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M18.8409 6.15927C18.7133 6.00859 18.5259 5.92172 18.3284 5.92172H16.464L12.8026 0.934574C12.583 0.635253 12.1628 0.571444 11.8639 0.790609C11.5647 1.01023 11.5005 1.4307 11.7199 1.72957L14.7977 5.92175H5.02326L8.10106 1.72957C8.32068 1.43046 8.256 1.01023 7.9571 0.790609C7.6582 0.571198 7.23776 0.635675 7.01814 0.934574L3.35667 5.92175H1.67163C1.47416 5.92175 1.28677 6.00863 1.15915 6.15931C1.03154 6.30999 0.976693 6.50901 1.00914 6.70377L2.68825 16.7784C2.74221 17.1022 3.02251 17.3397 3.3507 17.3397H16.6493C16.9777 17.3397 17.2578 17.1024 17.3117 16.7784L18.9908 6.70377C19.0233 6.50922 18.9685 6.30995 18.8409 6.15927ZM16.0804 15.9964H3.91963L2.46441 7.26504H17.5357L16.0804 15.9964Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M9.99975 8.83228C9.62878 8.83228 9.32812 9.13293 9.32812 9.5039V13.9144C9.32812 14.2854 9.62878 14.586 9.99975 14.586C10.3707 14.586 10.6714 14.2856 10.6714 13.9144V9.5039C10.6714 9.13293 10.3707 8.83228 9.99975 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M13.4705 8.83228C13.0995 8.83228 12.7988 9.13293 12.7988 9.5039V13.9144C12.7988 14.2854 13.0995 14.586 13.4705 14.586C13.8415 14.586 14.1421 14.2856 14.1421 13.9144V9.5039C14.1421 9.13293 13.8414 8.83228 13.4705 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M6.53003 8.83228C6.15906 8.83228 5.8584 9.13293 5.8584 9.5039V13.9144C5.8584 14.2854 6.15906 14.586 6.53003 14.586C6.901 14.586 7.20165 14.2856 7.20165 13.9144V9.5039C7.20165 9.13293 6.901 8.83228 6.53003 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                              </svg>
+                              Купить
+                           </button>
+                        </div>
+
+
+                     </div>
+                     <div class="tovar__item">
+                        <a href="#" class="tovar__images">
+                           <img src="images/tovar.jpg" alt="alt">
+                        </a>
+                        <span>MyExpert</span>
+                        <h3><a href="#">Питание, спорт, витамины</a></h3>
+                        <p>
+                           Индивидуальный рацион питания и режим
+                           тренировок для здоровья, контроля веса
+                           и улучшения спортивных показателей
+                        </p>
+                        <div class="tovar__price">
+                           <strong>
+                              17 900 руб.
+                              <span>2 100 руб.</span>
+                           </strong>
+                           <button type="submit">
+                              <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M18.8409 6.15927C18.7133 6.00859 18.5259 5.92172 18.3284 5.92172H16.464L12.8026 0.934574C12.583 0.635253 12.1628 0.571444 11.8639 0.790609C11.5647 1.01023 11.5005 1.4307 11.7199 1.72957L14.7977 5.92175H5.02326L8.10106 1.72957C8.32068 1.43046 8.256 1.01023 7.9571 0.790609C7.6582 0.571198 7.23776 0.635675 7.01814 0.934574L3.35667 5.92175H1.67163C1.47416 5.92175 1.28677 6.00863 1.15915 6.15931C1.03154 6.30999 0.976693 6.50901 1.00914 6.70377L2.68825 16.7784C2.74221 17.1022 3.02251 17.3397 3.3507 17.3397H16.6493C16.9777 17.3397 17.2578 17.1024 17.3117 16.7784L18.9908 6.70377C19.0233 6.50922 18.9685 6.30995 18.8409 6.15927ZM16.0804 15.9964H3.91963L2.46441 7.26504H17.5357L16.0804 15.9964Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M9.99975 8.83228C9.62878 8.83228 9.32812 9.13293 9.32812 9.5039V13.9144C9.32812 14.2854 9.62878 14.586 9.99975 14.586C10.3707 14.586 10.6714 14.2856 10.6714 13.9144V9.5039C10.6714 9.13293 10.3707 8.83228 9.99975 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M13.4705 8.83228C13.0995 8.83228 12.7988 9.13293 12.7988 9.5039V13.9144C12.7988 14.2854 13.0995 14.586 13.4705 14.586C13.8415 14.586 14.1421 14.2856 14.1421 13.9144V9.5039C14.1421 9.13293 13.8414 8.83228 13.4705 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                                 <path
+                                    d="M6.53003 8.83228C6.15906 8.83228 5.8584 9.13293 5.8584 9.5039V13.9144C5.8584 14.2854 6.15906 14.586 6.53003 14.586C6.901 14.586 7.20165 14.2856 7.20165 13.9144V9.5039C7.20165 9.13293 6.901 8.83228 6.53003 8.83228Z"
+                                    fill="#259499" stroke="#259499" stroke-width="0.6" />
+                              </svg>
+                              Купить
+                           </button>
+                        </div>
+
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+
+
+
+      <div class="footer">
+         <h1>footer</h1>
+      </div>
+   </div>
+
+
+
+
+
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>

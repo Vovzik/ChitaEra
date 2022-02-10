@@ -1,0 +1,129 @@
+.tovar {
+   margin: 20px 0px 130px;
+   // .tovar__items
+   h3 {
+      margin-bottom: 11px;
+      a {
+         color: #259499;
+         transition: all 0.4s ease;
+         &:hover {
+             opacity: 0.5
+         }
+      }
+   }
+
+   h1.tovar__title {
+      color: #202228;
+      text-align: center;
+      margin-bottom: 27px;
+      margin-top: 130px;
+   }
+
+   &__items {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+   }
+
+   // .tovar__item
+
+   &__item {
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 55px 40px 37px 40px;
+      p {
+         max-width: 286px;
+         font-weight: 300;
+         font-size: 14px;
+         line-height: 22px;
+         color: #202228;
+         margin-bottom: 32px;
+         flex-grow: 1;
+      }
+   }
+
+   &__item > span {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 22px;
+      color: #bdbdbd;
+      margin-bottom: 10px;
+   }
+
+   // .tovar__images
+
+   &__images {
+      margin-bottom: 35.39px;
+      display: block;
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+      }
+   }
+
+   // .tovar__price
+
+   &__price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      strong {
+         font-weight: 900;
+         font-size: 22px;
+         line-height: 26px;
+         text-transform: uppercase;
+         color: #259499;
+         max-width: 125px;
+      }
+      span {
+         margin-top: 4px;
+         position: relative;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 19px;
+         text-transform: uppercase;
+         color: #bdbdbd;
+         &:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-5.44deg);
+            width: 100%;
+            border-top: 2px solid #ce897f;
+         }
+      }
+      button {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border: 1.5px solid #259499;
+         border-radius: 200px;
+         width: 139px;
+         min-height: 40px;
+         font-weight: 900;
+         font-size: 14px;
+         line-height: 17px;
+         letter-spacing: 0.05em;
+         text-transform: uppercase;
+         color: #259499;
+         transition: all 0.4s ease;
+         &:hover {
+             background-color: #259499;
+             color: #fff
+         }
+         &:hover svg path  {
+            fill: #fff
+        }
+         svg {
+            margin-right: 10px;
+         }
+      }
+   }
+}
